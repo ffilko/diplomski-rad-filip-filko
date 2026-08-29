@@ -69,7 +69,10 @@
 // TODO: Овде укључујете поглавља
 #include "poglavlja/1-uvod.typ"
 #include "poglavlja/2-stanje.typ"
-#include "poglavlja/7-zakljucak.typ"
+#include "poglavlja/3-proces-rada.typ"
+#include "poglavlja/4-rezultati.typ"
+#include "poglavlja/5-diskusija.typ"
+#include "poglavlja/6-zakljucak.typ"
 
 
 

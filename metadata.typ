@@ -1,43 +1,49 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Шаблон и упутство за писање завршних радова"
-#let autor = "Уписати име и презиме"
+#let naslov = "Дигитализација туристичког искуства: мобилна апликација за откривање и упознавање знаменитости заснована на локацији корисника"
+#let autor = "Филип Филко"
 
 // На енглеском
-#let naslov_eng = "Template and tutorial for thesis preparation"
-#let autor_eng = "Upisati ime i prezime na latinici"
+#let naslov_eng = "Digitalization of Tourist Experience: Mobile Application for Exploring and Learning About Landmarks Based on User's Location"
+#let autor_eng = "Filip Filko"
 
-#let indeks = "Уписати индекс"
+#let indeks = "RA 122/2022"
 
 // Име и презиме ментора
-#let mentor = "Игор Дејановић"
+#let mentor = "Никола Лубурић"
 // Звање: редовни професор, ванредни професор, доцент
 #let mentor_zvanje = "редовни професор"
 
 // Скинути коментаре са одговарајућих линија
-#let studijski_program = "Софтверско инжењерство и информационе технологије"
-//#let studijski_program = "Рачунарство и аутоматика"
-#let stepen = "Мастер академске студије"
-//#let stepen = "Основне академске студије"
+//#let studijski_program = "Софтверско инжењерство и информационе технологије"
+#let studijski_program = "Рачунарство и аутоматика"
+//#let stepen = "Мастер академске студије"
+#let stepen = "Основне академске студије"
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "Шаблон, завршни рад, упутство"
+#let kljucne_reci = "дигитализација туризма, мобилна апликација, знаменитости, GPS, Flutter"
 #let apstrakt = [
-     Овај документ представља упутство за писање завршних радова на Факултету
-     техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+     Овај рад се бави проблемом недовољне повезаности туриста са историјским и културним садржајем знаменитости током посете одређеном граду. 
+     Циљ рада је развој решења које туристима омогућава едукативно и интерактивно упознавање знаменитости засновано на њиховој тренутној локацији. 
+     У оквиру апликације „NekadISad“, пројектован је и имплементиран систем за откривање знаменитости у близини корисника, приказ прича, аудио водича, 
+     историјских података, као и туре, изазови и квизови који допуњују туристичко искуство. Резултат је функционално 
+     софтверско решење које унапређује едукативну вредност и ангажованост туриста.
 ]
 
 // На енглеском
 #let kljucne_reci_eng = "Template, thesis, tutorial"
 #let apstrakt_eng = [
-     This document provides guidelines for writing final theses at the Faculty
-     of Technical Sciences, University of Novi Sad. At the same time, it serves
-     as a Typst template.
+     This thesis addresses the problem of insufficient engagement of tourists with the historical and cultural content
+     of landmarks while visiting a city, The goal of the thesis is to develop a solution that enables tourists to explore
+     and learn about landmarks in an educational and interactive way, based on their current location. Within the „NekadISad“
+     application, a system was designed and implemented for discovering nearby landmarks, displaying stories, audio guides
+     and historical data about them, as well as tours, challenges and quizzes that enrich the tourist experience. The result
+     is a functional software solution that enhances the educational value and engagement of tourists. 
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
 #let zadatak = [
-     #lorem(100)
+     намерно прескочено...
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
@@ -50,7 +56,7 @@
 // На енглеском уписати чланове на латиници
 #let komisija_predsednik_eng = "Petar Petrović"
 #let komisija_clan_eng = "Marko Marković"
-#let mentor_eng = "Igor Dejanović"
+#let mentor_eng = "Nikola Luburić"
 
 
 // Ово даље углавном не треба мењати.
